@@ -1,0 +1,12 @@
+
+.tube-container-menu {
+    margin-left:300px;
+    margin-bottom: 100px;
+    display: inline-block;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 12px;
+    grid-column-gap: 6px;
+}
+.tube-container-menu img {
+    width: 80%;
+}

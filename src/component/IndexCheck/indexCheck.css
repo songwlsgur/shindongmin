@@ -1,0 +1,48 @@
+/* ========== content  ========== */
+.mainContent {
+    padding-top: 48px;
+ }
+
+ 
+.content-exp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 350 !important;
+
+    line-height: 2.2rem;
+    flex-direction: column;
+    text-align: center;
+    color: #666;
+}
+
+p.content-title {
+    font-family: 'Youth', sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-align: center;
+}
+
+p.content-title.sub {
+    font-family: 'Youth', sans-serif;
+    font-size: 2rem;
+    line-height: 3.3rem;
+    text-align: center;
+    color: #666;
+}
+
+
+
+section.box h5 {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.content-exp.index2 {
+    height: 255px;
+}
+
+

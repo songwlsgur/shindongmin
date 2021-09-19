@@ -1,0 +1,16 @@
+header .service-title {
+    margin-top:-2px;
+    margin-left: 18px;
+    font-size:1.6rem;
+    font-weight: 700;
+    color:#803f29;
+ }
+ 
+ header .song-logo{
+    margin-right: 15px;
+ }
+ header .song-logo a{
+    display: inline-block;
+    margin:0 5px;
+ }
+ 

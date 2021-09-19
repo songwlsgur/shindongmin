@@ -1,0 +1,419 @@
+@charset "UTF-8";
+
+@font-face {
+font-family: 'NotoSansKR';
+font-style: normal;
+font-weight: 350;
+src: local('Noto Sans Light'), local('NotoSansKR-DemiLight'), url(../font/NotoSansKR-DemiLight.otf);
+src: url(../font/NotoSansKR-DemiLight.otf?#iefix) format('embedded-opentype'),
+url(../font/NotoSansKR-DemiLight.woff2) format('woff2'),
+url(../font/NotoSansKR-DemiLight.woff) format('woff');;
+}
+@font-face {
+font-family: 'NotoSansKR';
+font-style: normal;
+font-weight: 400;
+src: local('Noto Sans Regular'), local('NotoSansKR-Regular'), url(../font/NotoSansKR-Regular.otf);
+src: url(../font/NotoSansKR-Regular.otf?#iefix) format('embedded-opentype'),
+url(../font/NotoSansKR-Regular.woff2) format('woff2'),
+url(../font/NotoSansKR-Regular.woff) format('woff');
+}
+
+@font-face {
+font-family: 'NotoSansKR';
+font-style: normal;
+font-weight: 700;
+src: local('Noto Sans Bold'), local('NotoSansKR-Bold'), url(../font/NotoSansKR-Bold.otf);
+src: url(../font/NotoSansKR-Bold.otf?#iefix) format('embedded-opentype'),
+url(../font/NotoSansKR-Bold.woff2) format('woff2'),
+url(../font/NotoSansKR-Bold.woff) format('woff');
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/roboto-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../font/roboto-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/roboto-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/roboto-regular.woff') format('woff'), /* Modern Browsers */
+       url('../font/roboto-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../font/roboto-500.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+       url('../font/roboto-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/roboto-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/roboto-500.woff') format('woff'), /* Modern Browsers */
+       url('../font/roboto-500.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/roboto-700.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('../font/roboto-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/roboto-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/roboto-700.woff') format('woff'), /* Modern Browsers */
+       url('../font/roboto-700.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Youth';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/Youth.woff2') format('woff2'),
+         url('../font/Youth.woff') format('woff');
+}
+
+
+.notoKR {
+    font-family: 'NotoSansKR', sans-serif;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.robotoB {
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+ }
+.youth {
+    font-family: 'Youth', sans-serif;
+}
+.f350 {
+   font-weight:350 !important;
+}
+.f400 {
+   font-weight:400 !important;
+}
+.f500 {
+   font-weight:500 !important;
+}
+.f700 {
+   font-weight:700 !important;
+}
+.f-11 {
+   font-size: 1.1rem !important;
+}
+.f-16 {
+   font-size: 1.6rem !important;
+}
+.f-18 {
+   font-size: 1.8rem !important;
+}
+.f-32 {
+   font-size: 3.2rem !important;
+}
+.color-666 {
+   color:#666 !important;
+}
+/* common */
+.mt-0{
+   margin-top: 0px !important;
+}
+.mt-5{
+   margin-top: 5px !important;
+}
+.mt-10{
+   margin-top: 10px !important;
+}
+.mt-15{
+   margin-top: 15px !important;
+}
+.mt-20{
+   margin-top: 20px !important;
+}
+.mt-25{
+   margin-top: 25px !important;
+}
+.mt-30{
+   margin-top: 30px !important;
+}
+.mt-35{
+   margin-top: 35px !important;
+}
+.mt-40{
+   margin-top: 40px !important;
+}
+.mt-45{
+   margin-top: 45px !important;
+}
+.mt-50{
+   margin-top: 50px !important;
+}
+
+.mb-0{
+   margin-bottom: 0px !important;
+}
+.mb-5{
+   margin-bottom: 5px !important;
+}
+.mb-10{
+   margin-bottom: 10px !important;
+}
+.mb-15{
+   margin-bottom: 15px !important;
+}
+.mb-20{
+   margin-bottom: 20px !important;
+}
+.mb-25{
+   margin-bottom: 25px !important;
+}
+.mb-30{
+   margin-bottom: 30px !important;
+}
+.mb-35{
+   margin-bottom: 35px !important;
+}
+.mb-40{
+   margin-bottom: 40px !important;
+}
+.mb-45{
+   margin-bottom: 45px !important;
+}
+.mb-50{
+   margin-bottom: 50px !important;
+}
+
+.ml-0{
+   margin-left: 0px !important;
+}
+.ml-5{
+   margin-left: 5px !important;
+}
+.ml-10{
+   margin-left: 10px !important;
+}
+.ml-15{
+   margin-left: 15px !important;
+}
+.ml-20{
+   margin-left: 20px !important;
+}
+.ml-25{
+   margin-left: 25px !important;
+}
+.ml-30{
+   margin-left: 30px !important;
+}
+.ml-35{
+   margin-left: 35px !important;
+}
+.ml-40{
+   margin-left: 40px !important;
+}
+.ml-45{
+   margin-left: 45px !important;
+}
+.ml-50{
+   margin-left: 50px !important;
+}
+.mr-0{
+   margin-right: 0px !important;
+}
+.mr-5{
+   margin-right: 5px !important;
+}
+.mr-10{
+   margin-right: 10px !important;
+}
+.mr-15{
+   margin-right: 15px !important;
+}
+.mr-20{
+   margin-right: 20px !important;
+}
+.mr-25{
+   margin-right: 25px !important;
+}
+.mr-30{
+   margin-right: 30px !important;
+}
+.mr-35{
+   margin-right: 35px !important;
+}
+.mr-40{
+   margin-right: 40px !important;
+}
+.mr-45{
+   margin-right: 45px !important;
+}
+.mr-50{
+   margin-right: 50px !important;
+}
+
+.pl-24 {
+   padding-left: 24px !important;
+}
+.pr-24 {
+   padding-right: 24px !important;
+}
+.pr-16 {
+   padding-right: 16px !important;
+}
+
+.w-50 {
+   width: 50% !important;
+}
+.w-100 {
+   width: 100% !important;
+}
+
+.text-left {
+   text-align: left !important;
+}
+.text-right {
+   text-align: right !important;
+}
+.text-center {
+   text-align: center !important;
+}
+.text-justify {
+   text-align: justify !important;
+}
+.vis-hidden{
+   visibility: hidden;
+}
+.hide_txt {
+   display: inline-block;
+   overflow: hidden;
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   font-size: 1px;
+   line-height: 0;
+   clip: rect(1px 1px 1px 1px);
+}
+
+.main-color {
+   color:#a06551 !important;
+}
+.main-bg {
+   background-color: #fcf8f8 !important;
+
+}
+.hide {
+   display: none;
+}
+* {
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-weight:400;
+   outline: none;
+   border:none;
+}
+html {
+   height: 100%;
+   font-size:10px;
+   letter-spacing: -0.05em;
+}
+body {
+   font-family: 'NotoSansKR', sans-serif !important;
+   font-size:1.4rem;
+   background-color: #fff;
+}
+textarea::placeholder {
+   color:#f0f0f0;
+}
+textarea {
+   width: 100%;
+   height: 200px;
+   padding: 20px;
+   font-size: 1.6rem;
+   line-height: 2rem;
+   color:#333;
+   font-weight: 350;
+   border:1px solid #e2e1e1;
+   font-family: 'NotoSansKR', sans-serif;
+}
+textarea:focus  {
+   border:1px solid #a06551;
+   color:#a06551
+}
+textarea:disabled {
+   background-color:#fff;
+}
+
+img {
+   vertical-align: top;
+   max-width: 100%;
+   height: auto !important;
+}
+table{
+   border-collapse:collapse;
+   border-spacing:0;
+}
+li{
+   list-style:none;
+}
+a, a:link,  a:visited {
+   text-decoration: none;
+   color:#333333;
+}
+
+
+body header{
+   position: fixed;
+   width:100%;
+   height:48px;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   border-bottom:1px solid #f6f6f6;
+   background: #fff;
+   box-shadow: 0 3px 3px rgba(246, 246, 246, 0.2);
+   z-index:1001;
+}
+
+
+
+
+body header.header{
+
+  width: 100%;
+  height:48px;
+  text-align:center;
+  border-bottom:1px solid #f6f6f6;
+  background: #fff;
+  box-shadow: 0 3px 3px rgba(246, 246, 246, 0.2);
+
+}
+body header.header a.page-back {
+
+  display: block;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  text-indent: -9999px;
+}
+body header.header a.page-back:after {
+  display: block;
+  content: '';
+  position: absolute;
+  left:15px;
+  top:15px;
+  width:14px;
+  height:14px;
+  border-width: 0 0 1px 1px;
+  border-color: #000;
+  border-style: solid;
+  transform: rotate(45deg);
+}
+body header.header h2{
+  display:block;
+  width:100%;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 4.6rem;
+}
+
