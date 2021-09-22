@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shindongmin/static/css/main.5942b474.chunk.css",
-    "main.js": "/shindongmin/static/js/main.a5cf4331.chunk.js",
+    "main.css": "/shindongmin/static/css/main.926485b2.chunk.css",
+    "main.js": "/shindongmin/static/js/main.259a6b0f.chunk.js",
     "runtime-main.js": "/shindongmin/static/js/runtime-main.d36af4b9.js",
     "static/js/2.ded89a4f.chunk.js": "/shindongmin/static/js/2.ded89a4f.chunk.js",
     "static/js/3.6375c3e5.chunk.js": "/shindongmin/static/js/3.6375c3e5.chunk.js",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.d36af4b9.js",
     "static/js/2.ded89a4f.chunk.js",
-    "static/css/main.5942b474.chunk.css",
-    "static/js/main.a5cf4331.chunk.js"
+    "static/css/main.926485b2.chunk.css",
+    "static/js/main.259a6b0f.chunk.js"
   ]
 }
