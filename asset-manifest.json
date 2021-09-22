@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/shindongmin/static/css/main.297faf37.chunk.css",
-    "main.js": "/shindongmin/static/js/main.668a1f28.chunk.js",
+    "main.js": "/shindongmin/static/js/main.f272fbf5.chunk.js",
     "runtime-main.js": "/shindongmin/static/js/runtime-main.6dc0fdb3.js",
-    "static/js/2.caabee9f.chunk.js": "/shindongmin/static/js/2.caabee9f.chunk.js",
+    "static/js/2.ae2a7075.chunk.js": "/shindongmin/static/js/2.ae2a7075.chunk.js",
     "static/js/3.f5e8f0bb.chunk.js": "/shindongmin/static/js/3.f5e8f0bb.chunk.js",
     "index.html": "/shindongmin/index.html",
-    "static/js/2.caabee9f.chunk.js.LICENSE.txt": "/shindongmin/static/js/2.caabee9f.chunk.js.LICENSE.txt",
+    "static/js/2.ae2a7075.chunk.js.LICENSE.txt": "/shindongmin/static/js/2.ae2a7075.chunk.js.LICENSE.txt",
     "static/media/style.css": "/shindongmin/static/media/roboto-regular.e464241b.eot",
     "static/media/btn_scroll.717cd7bd.JPG": "/shindongmin/static/media/btn_scroll.717cd7bd.JPG",
     "static/media/logo.6ce24c58.svg": "/shindongmin/static/media/logo.6ce24c58.svg",
@@ -15,8 +15,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6dc0fdb3.js",
-    "static/js/2.caabee9f.chunk.js",
+    "static/js/2.ae2a7075.chunk.js",
     "static/css/main.297faf37.chunk.css",
-    "static/js/main.668a1f28.chunk.js"
+    "static/js/main.f272fbf5.chunk.js"
   ]
 }
