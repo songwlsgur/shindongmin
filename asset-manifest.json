@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shindongmin/static/css/main.297faf37.chunk.css",
-    "main.js": "/shindongmin/static/js/main.d1197185.chunk.js",
+    "main.js": "/shindongmin/static/js/main.2c8fb355.chunk.js",
     "runtime-main.js": "/shindongmin/static/js/runtime-main.6dc0fdb3.js",
     "static/js/2.caabee9f.chunk.js": "/shindongmin/static/js/2.caabee9f.chunk.js",
     "static/js/3.f5e8f0bb.chunk.js": "/shindongmin/static/js/3.f5e8f0bb.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6dc0fdb3.js",
     "static/js/2.caabee9f.chunk.js",
     "static/css/main.297faf37.chunk.css",
-    "static/js/main.d1197185.chunk.js"
+    "static/js/main.2c8fb355.chunk.js"
   ]
 }
