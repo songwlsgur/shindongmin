@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 
 .tube-container-menu {
     margin-left:300px;
@@ -10,3 +12,22 @@
 .tube-container-menu img {
     width: 80%;
 }
+
+
+#intro {
+    position: relative;
+
+}
+
+#intro .introContent {
+    text-align: center;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px;
+    background-size: contain;
+    background-color: #ffefed;
+    margin-top: 50px;
+}
+
+
+
+

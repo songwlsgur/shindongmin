@@ -15,12 +15,20 @@ function LunarTraverl(props) {
 
     return (
         <>
-          <div className="tube-container-menu">
-          <img src={sample6} alt="test사진"/>
-          </div> 
-          <div className="tube-container-menu">
-          <img src={sample6} alt="test2사진"/>
-          </div> 
+        <div id="intro">
+            <div className="introContent">
+              <img src={sample6} alt="test사진"/>
+            </div>
+            <div className="introContent">
+              <img src={sample6} alt="test사진"/>
+            </div>
+            <div className="introContent">
+              <img src={sample6} alt="test사진"/>
+            </div>
+            <div className="introContent">
+              <img src={sample6} alt="test사진"/>
+            </div>
+        </div>
         </>
     )
 }

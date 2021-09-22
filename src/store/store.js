@@ -9,11 +9,16 @@ const logger = createLogger();
 
 
 const sagaMiddleware = createSagaMiddleware();
-const middlewares = [ sagaMiddleware,logger ];
+const middlewares = [ sagaMiddleware ];
 const enhancer = process.env.NODE_ENV === 'production'
 ? compose( applyMiddleware(...middlewares))
 : composeWithDevTools(applyMiddleware(...middlewares))
 
+
+//
 const store = createStore(allReducers,enhancer)
 store.sagaTask = sagaMiddleware.run(rootSaga);
 export default store;
+
+
+

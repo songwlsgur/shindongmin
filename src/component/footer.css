@@ -12,14 +12,13 @@ footer#footer {
 }
 
 /* ========== 스크롤 탑 버튼 ========== */
-
 #top-btn {
     /* display: none; */
     position: fixed;
     bottom: 120px;
-    right: 100px;
-    width: 120px;
-    height: 112px;
+    right: 12px;
+    width: 45px;
+    height: 45px;
     cursor: pointer;
     outline: none;
     transition: 0.2s;
@@ -39,3 +38,5 @@ footer#footer {
     animation-fill-mode: both;
     animation-name: btnEntrance;
 }
+
+
