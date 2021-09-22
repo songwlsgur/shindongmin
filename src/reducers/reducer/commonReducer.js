@@ -6,7 +6,7 @@ import { COMMON_PAGE_MOVE,COMMON_TITLE,COMMON_SUBTITLE,COMMON_MAIN_KEY } from ".
     loadPagesLoading: false,
     loadPagesDone: false,
 
-    commonSubtitle: "about",
+    commonSubtitle: "About",
     loadSubtitleLoading: false,
     loadSubtitleDone: false,
 

@@ -26,6 +26,7 @@ function Footer(props) {
     return (
         <>
          <footer id="footer">
+         <div className="copyright">Shin dong min <br />ALL Right Reserved</div>
             <button id="top-btn" 
             className={scrollPosition > 0 ? "btnEntrance" : "btnExit"}
             style={scrollPosition > 0 ?  {display : "block"} : {display : "none"}}
