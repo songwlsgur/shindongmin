@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/shindongmin/static/css/main.42070eaf.chunk.css",
-    "main.js": "/shindongmin/static/js/main.7ec45479.chunk.js",
-    "main.js.map": "/shindongmin/static/js/main.7ec45479.chunk.js.map",
+    "main.css": "/shindongmin/static/css/main.222027ac.chunk.css",
+    "main.js": "/shindongmin/static/js/main.d1197185.chunk.js",
+    "main.js.map": "/shindongmin/static/js/main.d1197185.chunk.js.map",
     "runtime-main.js": "/shindongmin/static/js/runtime-main.6dc0fdb3.js",
     "runtime-main.js.map": "/shindongmin/static/js/runtime-main.6dc0fdb3.js.map",
     "static/js/2.caabee9f.chunk.js": "/shindongmin/static/js/2.caabee9f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f5e8f0bb.chunk.js": "/shindongmin/static/js/3.f5e8f0bb.chunk.js",
     "static/js/3.f5e8f0bb.chunk.js.map": "/shindongmin/static/js/3.f5e8f0bb.chunk.js.map",
     "index.html": "/shindongmin/index.html",
-    "static/css/main.42070eaf.chunk.css.map": "/shindongmin/static/css/main.42070eaf.chunk.css.map",
+    "static/css/main.222027ac.chunk.css.map": "/shindongmin/static/css/main.222027ac.chunk.css.map",
     "static/js/2.caabee9f.chunk.js.LICENSE.txt": "/shindongmin/static/js/2.caabee9f.chunk.js.LICENSE.txt",
     "static/media/style.css": "/shindongmin/static/media/roboto-regular.e464241b.eot",
     "static/media/btn_scroll.717cd7bd.JPG": "/shindongmin/static/media/btn_scroll.717cd7bd.JPG",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.6dc0fdb3.js",
     "static/js/2.caabee9f.chunk.js",
-    "static/css/main.42070eaf.chunk.css",
-    "static/js/main.7ec45479.chunk.js"
+    "static/css/main.222027ac.chunk.css",
+    "static/js/main.d1197185.chunk.js"
   ]
 }
