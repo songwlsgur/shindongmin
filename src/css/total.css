@@ -28,6 +28,10 @@
     margin-top: 50px;
 }
 
+#intro .introContent img{
+    cursor: zoom-in;
+}
+
 .grid-container-three {
     margin-left:12px;
     margin-right:12px;
@@ -39,6 +43,7 @@
 }
 .grid-container-three img {
     width: 100%;
+    cursor: zoom-in;
 }
 
 .grid-container-two {
@@ -46,12 +51,15 @@
 	grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     margin-top: 20px;
+    cursor: zoom-in;
 }
 
 
 .content-exp.index2 {
     height: 255px;
+    cursor: pointer;
 }
+
 
 
 
